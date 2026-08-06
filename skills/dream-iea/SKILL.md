@@ -5,6 +5,8 @@ description: 基于 IEA（信息元素回溯法）的梦境分析 skill。将梦
 
 # Dream-IEA · 梦境分析 Skill
 
+> © 2026 Luci (EDENOFLUX) · [MIT License](../../LICENSE)
+
 基于 IEA（信息元素回溯法）改造的梦境分析框架。核心纪律：**信息元素绝不直接指向心理状态，必须经过意象图式这一中层**。不做「梦到 X = 你在 Y」的象征跳译。
 
 ## 铁律（不可违反）
