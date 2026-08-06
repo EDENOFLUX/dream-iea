@@ -36,7 +36,7 @@ description: 基于 IEA（信息元素回溯法）的梦境分析 skill。将梦
 ```bash
 python3 scripts/analyze_dreams.py -i <标注JSON> \
     --C2 <理论一致性 1-10> --C3 <时间趋势 1-10> --C4 <传记共振 1-10> \
-    --baseline '{"BLOCKAGE":0.2,"恐惧":0.2}' -o <输出文件>
+    --baseline '{"<图式名>":<基线频率>,"<情感名>":<基线频率>}' -o <输出文件>
 ```
 （C2/C3/C4 由分析者按 `references/scoring.md` 规则赋值；analyst 段也可内嵌在 JSON 顶层，无需命令行参数）
 

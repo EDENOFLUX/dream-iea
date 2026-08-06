@@ -33,7 +33,7 @@ skills/dream-iea/
 ├── assets/
 │   ├── dream_diary_template.md   # 梦境采集模板（JSON）
 │   └── report_template.md        # 三层报告标准格式
-└── examples/                     # 脱敏真实示例（当前为空，不含测试样本）
+└── examples/                     # 空白占位（不含任何样本数据）
 ```
 
 ## 快速使用
@@ -44,7 +44,7 @@ skills/dream-iea/
 python3 skills/dream-iea/scripts/analyze_dreams.py \
     -i your_diary.json \
     --C2 5 --C3 5 --C4 4 \
-    --baseline '{"BLOCKAGE":0.2,"恐惧":0.2}' -o report.txt
+    --baseline '{"<图式名>":<基线频率>,"<情感名>":<基线频率>}' -o report.txt
 # （C2/C3/C4 也可内嵌在 JSON 顶层，无需命令行参数）
 # 3) 分析者据 references/scoring.md 完成 Step 2b 翻译 + Step 3 三线叠图
 # 4) 套用 assets/report_template.md 输出三层报告

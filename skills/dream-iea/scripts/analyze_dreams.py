@@ -11,7 +11,7 @@ Dream-IEA · Step 2a 图式层客观统计引擎
 
 用法：
     python3 analyze_dreams.py -i diary.json --C2 5 --C3 5 --C4 4 \
-        --baseline '{"BLOCKAGE":0.2,"恐惧":0.2}' -o report.txt
+        --baseline '{"<图式名>":<基线频率>,"<情感名>":<基线频率>}' -o report.txt
 
 analyst 段（C2/C3/C4）也可内嵌在 JSON 顶层，无需命令行参数。
 """
