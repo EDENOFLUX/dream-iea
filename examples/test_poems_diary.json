@@ -1,0 +1,59 @@
+{
+  "note": "三篇诗歌体梦境日记（Luci 本人创作）。作为 Dream-IEA 测试样本，按完整流程解码。日期为编码标识，非真实做梦日。",
+  "baseline": {
+    "BLOCKAGE": 0.2,
+    "CONTAINER": 0.3,
+    "CONTAINER破裂": 0.1,
+    "FORCE": 0.1,
+    "SOURCE-PATH-GOAL": 0.2,
+    "LINK": 0.15,
+    "VERTICALITY": 0.15,
+    "BALANCE": 0.15,
+    "CENTER-PERIPHERY": 0.1
+  },
+  "analyst": {
+    "C2": 7,
+    "C3": 6,
+    "C4": 6
+  },
+  "diaries": [
+    {
+      "date": "2026-08-06a",
+      "title": "其一·梦里花",
+      "schemas": ["CONTAINER", "CONTAINER破裂", "SOURCE-PATH-GOAL", "LINK", "CENTER-PERIPHERY", "FORCE"],
+      "schema_combos": ["CONTAINER+CONTAINER破裂+LINK", "FORCE+SOURCE-PATH-GOAL", "CENTER-PERIPHERY+CONTAINER"],
+      "emotions": [
+        {"type": "悲伤", "intensity": 0.9},
+        {"type": "敬畏", "intensity": 0.6},
+        {"type": "悲伤", "intensity": 0.5}
+      ],
+      "day_residue": false,
+      "event": ""
+    },
+    {
+      "date": "2026-08-06b",
+      "title": "其二·湿婆二相",
+      "schemas": ["CONTAINER", "FORCE", "BALANCE", "SOURCE-PATH-GOAL", "VERTICALITY", "CENTER-PERIPHERY"],
+      "schema_combos": ["CONTAINER+FORCE+BALANCE", "VERTICALITY+SOURCE-PATH-GOAL", "CENTER-PERIPHERY+CONTAINER"],
+      "emotions": [
+        {"type": "悲伤", "intensity": 0.6},
+        {"type": "敬畏", "intensity": 0.8},
+        {"type": "愤怒", "intensity": 0.4}
+      ],
+      "day_residue": false,
+      "event": ""
+    },
+    {
+      "date": "2026-08-06c",
+      "title": "其三·北冥有鱼",
+      "schemas": ["CONTAINER", "VERTICALITY", "LINK", "BALANCE", "CENTER-PERIPHERY", "SOURCE-PATH-GOAL"],
+      "schema_combos": ["VERTICALITY+SOURCE-PATH-GOAL+LINK", "CONTAINER+BALANCE", "CENTER-PERIPHERY+LINK"],
+      "emotions": [
+        {"type": "敬畏", "intensity": 0.9},
+        {"type": "悲伤", "intensity": 0.3}
+      ],
+      "day_residue": false,
+      "event": ""
+    }
+  ]
+}
