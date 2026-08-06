@@ -1,11 +1,11 @@
 ---
 name: dream-iea
 description: 基于 IEA（信息元素回溯法）的梦境分析 skill。将梦境叙事（碎片化或完整均可）经「信息元素 → 意象图式 → 心理状态」三层映射，用心理学/神经科学理论反推近期心理状态。触发词：解梦、梦境分析、梦到、dream analysis、梦境日记、梦的心理学意义。评分体系对齐 LPP 言灵（光谱打分 + ■●▲△ 置信标记）。
+author: Luci逻辑喵
+license: CC BY-NC-SA 4.0
 ---
 
 # Dream-IEA · 梦境分析 Skill
-
-> © 2026 Luci逻辑喵 (EDENOFLUX) · [CC BY-NC-SA 4.0](../../LICENSE)
 
 基于 IEA（信息元素回溯法）改造的梦境分析框架。核心纪律：**信息元素绝不直接指向心理状态，必须经过意象图式这一中层**。不做「梦到 X = 你在 Y」的象征跳译。
 
